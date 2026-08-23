@@ -1,0 +1,9 @@
+#pragma once
+#include "SpriteDrawSystem.h"
+#include "AnimationSystem.h"
+#include "CollisionSystem.h"
+#include "PlayerUpdateSystem.h"
+#include "FontDrawSystem.h"
+#include "SoundSystem.h"
+#include "InputSystem.h"
+#include "StageSystem.h"

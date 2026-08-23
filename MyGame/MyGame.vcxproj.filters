@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{e9fe3fb4-0615-4024-b14f-9468f299b898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stages">
+      <UniqueIdentifier>{d95d1279-6807-40b7-a76b-4d45ed374322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\System">
+      <UniqueIdentifier>{878dcef0-7a0f-401b-81ec-9179c2835dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{0d6aa90d-807f-4b51-9ef8-ffcc883a940d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS">
+      <UniqueIdentifier>{b564d1b5-4ab3-47ee-ae89-45cc8582ab7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS\Components">
+      <UniqueIdentifier>{481a461f-1dfb-4542-983a-26c96ae9118a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS\Systems">
+      <UniqueIdentifier>{0077f7e7-dda9-4c8a-8664-2065d1318156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS\Events">
+      <UniqueIdentifier>{826526c9-511c-446b-b910-e2b2dafdcbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Time">
+      <UniqueIdentifier>{72602e49-1d46-4971-938d-f1a35bb9d94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS\RenderSystems">
+      <UniqueIdentifier>{ce18a78c-a401-46e2-82f4-33d4b3835efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ECS\Renderers">
+      <UniqueIdentifier>{eb132b4b-f54a-49cf-8297-b57a469edf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Window">
+      <UniqueIdentifier>{38663385-ed4b-4fdc-9356-d47f51a834bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stage1.h">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Framework\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MyECS.h">
+      <Filter>Framework\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Framework\ECS\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Framework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDrawSystem.h">
+      <Filter>Framework\ECS\RenderSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUpdateSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerates.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonReader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDrawSystem.h">
+      <Filter>Framework\ECS\RenderSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Framework\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9Renderer.h">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11InstancedRenderer.h">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="StressStage.h">
+      <Filter>Stages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9Renderer.cpp">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Framework\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Renderer.cpp">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11InstancedRenderer.cpp">
+      <Filter>Framework\ECS\Renderers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

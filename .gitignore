@@ -1,0 +1,51 @@
+# ── Build outputs ─────────────────────────────
+x64/
+Win32/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.idb
+*.exp
+*.lib
+
+# ── Visual Studio ─────────────────────────────
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# ── NuGet ─────────────────────────────────────
+packages/
+*.nupkg
+
+# ── 대용량 미디어 (링크/첨부로 별도 제출) ──────
+*.pptx
+*.zip
+*.mp4
+*.mkv
+*.mov
+*.webp
+
+# ── 배포판 · 녹화본 ─────────────────────────────
+게임/
+녹화/
+
+# ── 루트 문서·백업 (소스 외, README.md 만 유지) ─
+/*.pdf
+/*.docx
+/*.txt
+/*.h
+
+# docs: 이미지(png)만 공개, 텍스트 산출물은 로컬(첨부용)
+docs/*.pdf
+docs/*.docx
+docs/*.html
+docs/*.md
