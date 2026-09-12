@@ -13,9 +13,11 @@ public:
 	}
 	~ObjectPool()
 	{
-		while (!mObjects.empty()) {
-			mObjects.clear();
+		for (T* object : mObjects) 
+		{
+			delete object;
 		}
+		mObjects.clear();
 	}
 	T* PopObject()
 	{
