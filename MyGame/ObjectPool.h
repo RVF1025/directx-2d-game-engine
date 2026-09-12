@@ -4,10 +4,10 @@
 #include <memory>
 
 template<class T, int SIZE = 100>
-class ObjectPool // unique_ptr ��� ������ƮǮ�� ����
+class ObjectPool // 메모리 누수 방지를 위해 unique_ptr 기반 오브젝트풀로 수정함
 {
 public:
-	ObjectPool() 
+	ObjectPool()
 	{
 		Refill();
 	}
